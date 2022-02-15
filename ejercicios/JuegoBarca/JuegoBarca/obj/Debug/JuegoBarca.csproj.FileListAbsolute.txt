@@ -1,0 +1,12 @@
+C:\Users\ingsv\Downloads\Temp\JuegoBarca\JuegoBarca\obj\Debug\JuegoBarca.csprojAssemblyReference.cache
+C:\Users\ingsv\Downloads\Temp\JuegoBarca\JuegoBarca\obj\Debug\JuegoBarca.csproj.CoreCompileInputs.cache
+C:\Users\ingsv\Downloads\Temp\JuegoBarca\JuegoBarca\bin\Debug\JuegoBarca.exe
+C:\Users\ingsv\Downloads\Temp\JuegoBarca\JuegoBarca\bin\Debug\JuegoBarca.pdb
+C:\Users\ingsv\Downloads\Temp\JuegoBarca\JuegoBarca\obj\Debug\JuegoBarca.exe
+C:\Users\ingsv\Downloads\Temp\JuegoBarca\JuegoBarca\obj\Debug\JuegoBarca.pdb
+D:\programacion\ejercicios\JuegoBarca\JuegoBarca\bin\Debug\JuegoBarca.exe
+D:\programacion\ejercicios\JuegoBarca\JuegoBarca\bin\Debug\JuegoBarca.pdb
+D:\programacion\ejercicios\JuegoBarca\JuegoBarca\obj\Debug\JuegoBarca.csprojAssemblyReference.cache
+D:\programacion\ejercicios\JuegoBarca\JuegoBarca\obj\Debug\JuegoBarca.csproj.CoreCompileInputs.cache
+D:\programacion\ejercicios\JuegoBarca\JuegoBarca\obj\Debug\JuegoBarca.exe
+D:\programacion\ejercicios\JuegoBarca\JuegoBarca\obj\Debug\JuegoBarca.pdb

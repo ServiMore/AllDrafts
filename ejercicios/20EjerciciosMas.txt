@@ -1,0 +1,126 @@
+1Escribir un programa que pregunte al usuario su edad y muestre por pantalla si es mayor de edad o no.
+
+2Escribir un programa que almacene la cadena de caracteres contraseña en una variable, pregunte al usuario por la contraseña e imprima por pantalla si la contraseña introducida por el usuario coincide con la guardada en la variable sin tener en cuenta mayúsculas y minúsculas.
+
+3Para tributar un determinado impuesto se debe ser mayor de 16 años y tener unos ingresos iguales o superiores a 1000 € mensuales. Escribir un programa que pregunte al usuario su edad y sus ingresos mensuales y muestre por pantalla si el usuario tiene que tributar o no.
+
+4Los alumnos de un curso se han dividido en dos grupos A y B de acuerdo al sexo y el nombre. El grupo A esta formado por las mujeres con un nombre anterior a la M y los hombres con un nombre posterior a la N y el grupo B por el resto. Escribir un programa que pregunte al usuario su nombre y sexo, y muestre por pantalla el grupo que le corresponde.
+ private static void Ejercicio22()
+        {
+            Console.WriteLine("cual es tu nombre?");
+            string nombre = Convert.ToString(Console.ReadLine());
+
+            Console.WriteLine("cual es tu sexo: M o H?");
+            string genero = Convert.ToString(Console.ReadLine());
+
+            if (genero == "m")
+            {
+                if (nombre "m")
+                {
+
+                }
+            }
+
+
+
+5Escribir un programa que pregunte al usuario su renta anual y muestre por pantalla el tipo impositivo que le corresponde. Los tramos impositivos para la declaración de la renta en un determinado país son los siguientes:
+
+Renta			Tipo impositivo
+Menos de 10,000			5%
+Entre 10,000 y 20,000		15%
+Entre 20,000 y 35,000		20%
+Entre 35,000 y 60,000		30%
+Más de 60,000			45%
+
+6Escribir un programa que pida al usuario una palabra y la muestre por pantalla 10 veces.
+
+7Escribir un programa que pida al usuario un número entero positivo y muestre por pantalla todos los números impares desde 1 hasta ese número separados por comas.
+
+Console.WriteLine("ingrese un pinche numero entero");
+            int numero = Convert.ToInt32(Console.ReadLine());
+
+
+            for (int i = 0; i < numero; i++)
+            {
+                if (numero % 2 == 0)
+                {
+                    Console.WriteLine("");
+                }
+                else
+                {
+                    Console.Write( + ", ");
+                }
+
+            }
+            Console.ReadKey();
+
+
+
+8Escribir un programa que pida al usuario un número entero positivo y muestre por pantalla la cuenta atrás desde ese número hasta cero separados por comas.
+
+9Escribir un programa que pida al usuario un número entero y muestre por pantalla un triángulo rectángulo como el de más abajo, de altura el número introducido.
+
+*
+**
+***                             
+****
+*****                                       Console.WriteLine("ingrese la altura del triangulo");
+				            int numero = Convert.ToInt32(Console.ReadLine());
+
+				            for (int i = 0; i < numero; i++)
+            					{
+                				Console.WriteLine("*"); 
+            					}
+            					Console.ReadKey();
+
+
+10Escribir un programa que muestre por pantalla la tabla de multiplicar del 1 al 10.
+
+11Escribir un programa que almacene la cadena de caracteres contraseña en una variable, pregunte al usuario por la contraseña hasta que introduzca la contraseña correcta.
+
+12Escribir un programa en el que se pregunte al usuario por una frase y una letra, y muestre por pantalla el número de veces que aparece la letra en la frase.
+
+Console.WriteLine("ingrese una frase");
+            string frase = Convert.ToString(Console.ReadLine());
+            int largo = frase.Length;
+
+            Console.WriteLine("ingrese la letra");
+            string letra = Convert.ToString(Console.ReadLine());
+
+            int contar = 0;
+
+            for (int i = 0; i < largo; i++)
+            {
+                if ( == letra)
+                {
+                    contar += 1;
+                }
+            }
+            Console.WriteLine("la letra {0} aparecio {1} veces  en la frase ingresada",letra, contar);
+            Console.ReadKey();
+
+
+
+13Escribir un programa que pregunte el nombre del usuario en la consola y después de que el usuario lo introduzca muestre por pantalla la cadena ¡Hola <nombre>!, donde <nombre> es el nombre que el usuario haya introducido.
+
+14Escribir un programa que pregunte el nombre del usuario en la consola y después de que el usuario lo introduzca muestre por pantalla <NOMBRE> tiene <n> letras, donde <NOMBRE> es el nombre de usuario en mayúsculas y <n> es el número de letras que tienen el nombre.
+
+15Escribir un programa que pregunte al usuario por el número de horas trabajadas y el coste por hora. Después debe mostrar por pantalla la paga que le corresponde.	
+
+16Escribir un programa que pida al usuario su peso (en kg) y estatura (en metros), calcule el índice de masa corporal y lo almacene en una variable, y muestre por pantalla la frase Tu índice de masa corporal es <imc> donde <imc> es el índice de masa corporal calculado redondeado con dos decimales.
+
+17Imagina que acabas de abrir una nueva cuenta de ahorros que te ofrece el 4% de interés al año. Estos ahorros debido a intereses, que no se cobran hasta finales de año, se te añaden al balance final de tu cuenta de ahorros. Escribir un programa que comience leyendo la cantidad de dinero depositada en la cuenta de ahorros, introducida por el usuario. Después el programa debe calcular y mostrar por pantalla la cantidad de ahorros tras el primer, segundo y tercer años. Redondear cada cantidad a dos decimales.
+
+18Escribir una función que calcule el total de una factura tras aplicarle el IVA. La función debe recibir la cantidad sin IVA y el porcentaje de IVA a aplicar, y devolver el total de la factura. 
+
+19Escribir una función que reciba una muestra de números en una lista y devuelva su media.
+
+20Escribir un programa que almacene el abecedario en una lista, elimine de la lista las letras que ocupen posiciones múltiplos de 3, y muestre por pantalla la lista resultante.
+
+
+
+
+
+
+
+

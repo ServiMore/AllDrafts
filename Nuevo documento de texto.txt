@@ -1,0 +1,60 @@
+editar la categoria
+
+agarrar en la capa de poresentacion quiere que diga: categoria actualizada correctamente(si se acutalizo)
+no (informativo, advertencia) 
+
+
+3306
+
+elpatitodeuleenelagua
+
+
+-- CRUD
+-- C: Create -> INSERT INTO table (cols) VALUES (valores);
+-- R: Read -> SELECT cols FROM table;
+-- U: Update -> UPDATE table SET col = value WHERE col = condicion;
+-- D: Delete -> DELETE FROM table WHERE col = condicion;
+
+create user `root`@`%` identified by '1234';
+grant all privileges on *.* to `root`@`%`;
+flush privileges;
+
+
+select distinct
+    vuelo.id as vuelo_id,
+    vuelo.origen,
+    vuelo.destino,
+    vuelo.hora_determinada,
+    piloto.nombre as piloto,
+    avion.tipo as tipo_avion
+    ,miembro_tripulacion.nombre as tripulacion
+from vuelo
+    inner join piloto on piloto.id = vuelo.piloto_id
+    inner join avion on avion.id = vuelo.avion_id
+    left join vuelo_has_miembro_tripulacion as vmt on vmt.vuelo_id = vuelo.id
+    left join miembro_tripulacion on vmt.miembro_tripulacion_id = miembro_tripulacion.id
+;
+
+
+select
+       miembro_tripulacion.*
+from miembro_tripulacion
+    join vuelo_has_miembro_tripulacion vhmt on miembro_tripulacion.id = vhmt.miembro_tripulacion_id
+where vhmt.vuelo_id = 2;
+
+Campo en el que se tocan las tablas
+
+select * from city where Name like "A%"; %a%, %a;
+
+sum(*)group by ---
+
+*objeto mysql conection= sabe como acceder a la base de datos, hay que pasarle la cadena de conexion
+*mysql comando, tiene la instruccion, ocupa conexion y un string
+
+*AddRange = para agregar varios elementos.
+
+
+!@#$$ hacer un sistema para una empresa que vende carros lo que la empresa necesita es manejar los vehiculos que tienen en existencia, cuales son, cuanto valen, de los vehiculos quiere conocer expecificamente la marca del carro, su modelo, de que año salio el carro, el precio, una descripcion, numero de serie y en que almacen lo tienen guardado, quieren llevar control de los almacenes osea que hay que guardar informacion de los almacenes, cada almancen tiene un nombre propio, tiene un numero de telefono, una direccion completa: ciudad, y se guarda el nombre y apellido que esta a cargo del almacen
+
+, hacer la base de datos y la aplicacion en c# para manejarla tiene que tener la interfaz, donde quiere ver los carros existentes, quiere poder seleccionar un carro y ver los datos del carro(solo ver, sin botones) agregar vehiculo abrir un formulario para crear,  ver los almacenes, crear almacen de la lista poder abrir uno y mostrar sus datos, cuando muestre los datos de un solo almacen mostrar los datos generales y mostrar los carros que estan en ese almacen. 
+

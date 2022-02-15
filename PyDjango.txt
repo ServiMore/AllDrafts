@@ -1,0 +1,54 @@
+*active
+declaracion de clase:
+class Cliente (models.Model):
+
+resto de modelos
+y registrarlos en el admin
+hacer las relaciones
+
+-objects: all(todos)get(uno)
+etiqueta:--block
+
+view= peticion a la db, construccion del context y la llamada a la funcion render.
+template= block, permite delegar la elabaracion de ese pedazo de codigo.
+
+se empieza con el extends, y se la pasa el nombre del archiv que va a heredar.
+
+se usan dos simobolos {%(son para palabras reservadas para motor de plantillas:block, extends, for, if) y {{(se utiliza para imprimir variables).
+
+{% static %}
+
+hacer sakila
+
+*los campos de tipo fecha aparezcan de tipo fecha en el html.
+-uso de widgets (para que salga de tipo fecha).
+
+*en el detalle de pais que salga la lista de las ciudades.
+-si el objeto model de pais tiene acceso a la lista de ciudades solo hay que agregarlas al html, si no,	 hay que cambiar la vista para pasarle esos valores o cambiar el model para que el model tenga acceso a ese valor
+
+*en pago que solo salgan las rentas del cliente seleccionado.
+-buscar un plugin para hacerlo. django cargar campo dependiente.
+
+*que en la barra de buscador muestre la lista de peliculas cuyo titulo coincida parcialmente en el criterio de busqueda.
+objects.filter, hacer una url y una vista de tipo view
+
+class view view
+
+
+python -m venv env = activate
+pip install Django
+python manage.py startapp polls
+python manage.py runserver
+
+
+---nodejs
+
+
+*hacer los demas recursos
+*en los paises se deben de mostrar las ciudades pertenecientes a ese pais
+*direcciones deben de llevar el id de su ciudad y el nombre de la ciudad
+
+*idioma original = GET /idiomas/:id/peliculas
+*leer acerca de angular y react
+
+

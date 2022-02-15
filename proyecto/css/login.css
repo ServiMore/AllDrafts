@@ -1,0 +1,11 @@
+#login-form{
+  background-color: #fff;
+  width: 50%;
+  padding: 30px;
+  margin-top: 28vh;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 5px gray;
+}
+.botones{
+  padding-top: 15px;
+}

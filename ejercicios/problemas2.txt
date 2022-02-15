@@ -1,0 +1,140 @@
+1. Pedir al usuario el diametro de un circunferencia y calcular su area.
+  start
+var diametro
+var radio
+var area
+
+diametro = input(ingrese el diametro)
+
+radio = diametro / 2
+area = 3.14 * radio^2
+
+print("el area de la circunferencia es: " + area)
+
+end
+
+2. Pedir al usuario 7 calificaciones y mostrar su promedio junto con un mensaje:
+    "Deficiente" si el promedio es menor a 60
+    "Normal" si el promedio es mayor o igual a 60 pero menor que 90
+    "Sobresaliente" si el promedio es mayor o igual a 90
+
+start
+
+var nota_1
+var nota_2
+var nota_3
+var nota_4
+var nota_5
+var nota_6
+var nota_7
+var total
+
+nota_1 = input(ingrese la primer nota)
+nota_2 = input(ingrese la segunda nota)
+nota_3 = input(ingrese la tercera nota)
+nota_4 = input(ingrese la cuarta nota)
+nota_5 = input(ingrese la quinta nota)
+nota_6 = input(ingrese la sexta nota)
+nota_7 = input(ingrese la septima nota)
+
+total = nota_1 + nota_2 + nota_3 + nota_4 + nota_5 + nota_6 + nota_7
+total =  total/7
+
+if (total < 60)
+{
+print("deficiente")
+}
+else if (total >= 60 Y total < 90)
+{ 
+print("normal")
+}
+else 
+{
+ print("sobresaliente")
+}
+
+end
+
+3. Pedir al usuario 7 calificaciones y mostrar cuantas asignaturas fueron aprobadas y cuantas reprobadas. EJ
+    20, 30, 90, 80, 60, 0, 100
+    Reprobadas = 3
+    Aprobadas = 4
+
+start
+
+var notas = 7
+var suma
+var aprobadas
+var reprobadas
+var suma_2
+var nota
+
+for i=0 ; i<7
+{
+ nota = input(ingrese sus notas)
+if (nota >= 60)
+{
+ aprobadas = 1
+ suma +=aprobadas
+}
+else 
+{
+ reprobadas = 1
+ suma_2 += reprobadas
+}
+}
+
+end for
+
+print("aprobaste: " + suma)
+print("reprobaste: " + suma_2)
+
+end
+
+
+
+
+4. Pedir al usuario el precio orignal de un producto y el precio real pagado; luego calcular cual fue el descuento que le otorgaron.  EJ.
+   Precio original = 100
+   Precio real= 80
+
+   El descuento aplicado fue 20%
+
+start
+
+var precio_original
+var precio_pagado
+var dato
+var dato_2
+precio_original = input("ingrese el precio original")
+precio_real = input("ingrese el precio a pagar")
+
+dato = precio_original - precio_pagado
+dato_2 = dato * 100 / precio_original
+
+print("el descuento otorgado es del: " dato_2"%")
+
+end
+
+
+
+
+ 
+
+5. Pedir al usuario los catetos de un triangulo rectangulo y luego imprimir en pantalla el valor de la hipotenusa.
+
+start
+
+var cateto_1
+var cateto_2
+var hipotenusa
+
+cateto_1 = input("ingrese el valor del primer cateto")
+cateto_2 = input("ingrese el valor del segundo cateto")
+
+hipotenusa = (cateto_1^2) + (cateto_2^2)
+hipotenusa = hipotenusa^1/2
+
+print("el valor de hipotenusa es: " + hipotenusa)
+
+end

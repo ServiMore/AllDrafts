@@ -1,0 +1,32 @@
+body {
+  margin: 0 10%;
+  background-color: #00b5ac;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+
+
+h2 {
+  margin-top: 0;
+}
+
+.primero {
+  background-color: white;
+  border: #fe4101 20px solid;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.segundo {
+  background-color: white;
+  border: #ffa52a 20px solid;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.tercero {
+    background-color: white;
+  border: #fe4101 20px solid;
+  padding: 20px;
+  margin-bottom: 20px;
+}

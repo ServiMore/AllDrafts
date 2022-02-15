@@ -1,0 +1,41 @@
+.navbar {
+  background-color: blue;
+}
+
+.card {
+  float: right;
+  margin: 6px;
+}
+
+.navs {
+  background-color: #fff;
+}
+
+.nav-link {
+  margin-bottom: -17px;
+}
+
+.navbar-nav {
+  color: white;
+}
+
+.jumbo+tron {
+  margin-bottom: -50px;
+}
+
+#bloques {
+  float: left;
+  height: 773px;
+  background-color: white;
+  width: 570px;
+  max-width: 33%;
+}
+
+.lead {
+  font-size: 17px;
+  padding-left: 38%;
+}
+
+.display-4 {
+  padding-left: 38%;
+}

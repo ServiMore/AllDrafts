@@ -1,0 +1,42 @@
+.img{
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+}
+.text {
+  font-size: 18px;
+  font-style: helvetica;
+}
+
+.form {
+  width: 900px;
+  padding: 50px;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px #bbb;
+  border-radius: 4px;
+}
+
+.link {
+ font-size: 18px;
+ text-decoration:none.
+}
+
+.navbar {
+  width: 900px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0px 0px 20px #bbb;
+  margin-top: -4px;
+}
+
+.btn  {
+  box-shadow: 0px 0px 20px #bbb;
+  border-radius: 5px;
+}
+
+.texts {
+  font-size: 14px;
+  color: gray;
+}

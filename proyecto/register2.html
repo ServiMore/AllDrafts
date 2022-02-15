@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/login2.css">
+    <link rel="stylesheet" href="css/register2.css">
+
+    <title>Crear cuenta</title>
+  </head>
+  <body>
+
+    <form class="form-signin">
+      <center>
+        <img class="mb-4" src="referencia.jpg" alt="" width="72" height="72">
+        <h1 class="h3 mb-3 font-weight-normal">Crear cuenta</h1>
+
+        <input type="email" id="inputEmail" class="form-control" placeholder="Correo" required autofocus>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Clave" required onkeyup="compararClaves()">
+        <input type="password" id="inputPassword2" class="form-control" placeholder="Reperitr clave" required onkeyup="compararClaves()">
+
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Aceptar</button>
+
+        <hr>
+        <p>Ya tienes una cuenta?</p>
+        <p><a href="login2.html">Iniciar sesión</a></p>
+      </center>
+    </form>
+
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+      function compararClaves(){
+        let inputClave1 = document.getElementById('inputPassword');
+        let inputClave2 = document.getElementById('inputPassword2');
+
+        if (inputClave1.value != inputClave2.value) {
+          inputClave2.setAttribute("class", "form-control error");
+        } else {
+          inputClave2.setAttribute("class", "form-control");
+        }
+      };
+    </script>
+  </body>
+</html>

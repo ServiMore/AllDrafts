@@ -1,0 +1,11 @@
+body {
+  font-family: "Black Ops One";
+  font-size: 300%;
+  text-align: center;
+}
+
+div {
+  margin-left: 5%;
+  margin-right: 5%;
+  border-bottom: blue 3px solid;
+}

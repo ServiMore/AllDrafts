@@ -1,0 +1,9 @@
+solicitudes de pinturas
+
+llevar el control de los materiales, ordenes de las pinturas terminadas, costos y ganancias.
+
+1.Registrar los datos generales de los clientes.
+2.Registrar los materiales (hacerle una categoria, costo y cantidad, unidad de medida)
+3.Registrar la informacion de las ordenes(quien lo encargo, una descripcion de la pintura, fecha que me lo pidieron, y fecha de entrego, cuanto le voy a cobrar(precio), la orden tiene que tener una lista de materiales aproximados que voy a gasta con sus cantidades, debe de llevar el costo de los materiales).*costo total tiene que actualizarse cuando quite o agregue materiales.
+4.Agregar una lista de las pinturas que se hicieron apartes de venta(sin ser encargos), se necesita saber: descripcion, precio, costo de haberlo hecho,(el costo no es calculado es puesto por el usuario), y un boolean que indica si ya se vendio.
+

@@ -1,0 +1,26 @@
+#inputEmail {
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+#inputPassword {
+  margin-bottom: -1px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#inputPassword2 {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.error {
+	border-color: red !important;
+}
+.error:focus{
+	box-shadow: 0 0 0 0.2rem rgba(255,0,0,.25) !important;
+}

@@ -1,0 +1,35 @@
+Restante=
+500 - teclado
+175- cuenta
+
+-- La tecnologia en la salud.
+
+URL:https://sites.google.com/a/correo.unimet.edu.ve/medical-tecnologica/home/pag-web-1/1-3
+https://utelesup.edu.pe/blog-medicina/las-nuevas-tecnologias-en-la-medicina-humana/
+https://www.elsevier.com/es-es/connect/innovacion-tecnologica-salud/5-tecnologias-que-van-a-revolucionar-el-mundo-de-la-medicina
+
+
+descubrir el problema
+el problema especifico de eso es le tiempo y el lugar
+un objetivo general es analizar la informacion
+enumerar las ventajas de la educacion en informatica en las escuelas de secundaria.
+
+
+
+Tema General: Las tecnologias extraordinarias en las ciencias medicas
+
+Tema delimitado: Beneficios de los avances tecnologicos del siglo XXI y sus diferentes ambitos de aplicacion en nicaragua.
+
+Estructura:
+-Portada: logo de la universidad y lema, tema general,carrera, los autores, nombre de la docente, fecha a un lado de la hoja. a la educacion con calidad.
+
+-indice: Toda la informacion que se ira desglosando del bosquejo, numero de paginas de introduccion.
+
+-introduccion: explicar de que tratara la investigacion -- 1 pagina o 3 parrrafos minimo
+
+-cuerpo de trabajo: tema especifico, Objetivos general, objetivos especificos, --  marco teorico(bosquejo) 
+
+-Conclusion.
+
+-bibliografia.
+

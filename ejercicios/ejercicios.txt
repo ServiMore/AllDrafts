@@ -1,0 +1,193 @@
+1. Algoritmo que lea dos números, calculando y escribiendo el valor de su suma, resta, producto y división.
+
+start
+
+var numero1
+var numero2
+var respuesta_suma
+var respuesta_resta
+var respuesta_producto
+var respuesta_division
+
+numero1 = input("ingrese el numero 1")	
+numero2 = input("ingrese el numero 2")
+
+respuesta_suma = numero1 + numero2
+print("la suma es: " + respuesta_suma)
+
+respuesta_resta = numero1 - numero2
+print("la resta es: " + respuesta_resta)
+
+respuesta_producto = numero1 * numero2
+print("el producto es: " + respuesta_producto
+
+respuesta_division = numero1 / numero2
+print("la division es: " + respuesta_division
+
+end
+
+	
+
+2. Algoritmo que lea dos números y nos diga cual de ellos es mayor o bien si son iguales
+
+start
+
+var numero1
+var numero2
+
+numero1 = input("ingrese el primer numero")
+numero2 = input("ingrese el segundo numero")
+ 
+if (numero1 > numero2)
+{
+ print(" el numero mayor es: " + numero1)
+}
+elseif (numero1 == numero2)	
+{
+print("los numeros son iguales")
+}
+else
+{
+ print("el numero mayor es: " + numero2)
+}
+
+end
+
+
+
+3. Algoritmo que lea tres números distintos y nos diga cual de ellos es el mayor
+
+start
+
+var numero1
+var numero2
+var numero3
+
+numero1 = input("ingrese el primer numero")
+numero2 = input("ingrese el segundo numero")
+numero3 = input("ingrese el tercer numero")
+
+if(numero1 > numero2 Y numero1 > numero3)
+{
+ print("el numero mayor es: " + numero1)
+}
+elseif (numero2 > numero3)
+{
+ print("el numero mayor es: " + numero2)
+}
+else
+{
+ print("el numero mayor es: " + numero3) 
+}
+end
+
+4. Un colegio desea saber qué porcentaje de niños y qué porcentaje de niñas hay en el curso actual. Diseñar un algoritmo para este propósito
+
+start
+
+var cantidad_niños
+var cantidad_niñas
+var porcentaje_niños
+var porcentaje_niñas
+
+cantidad_niños = input("ingrese la cantidad de niños")
+cantidad_niñas = input("ingrese la cantidad de niñas")
+
+porcentaje_niños = cantidad_niños*100/total_niñ@s
+porcentaje_niñas = cantidad_niñas*100/total_niñ@s
+
+END 
+
+
+
+5. Una tienda ofrece un descuento del 15% sobre el total de la compra durante el mes de octubre. Dado un mes y un importe, calcular cuál es la cantidad que se debe cobrar al cliente.
+
+start
+
+var importe
+var mes
+var paga
+
+importe = input("introduzca el importe")
+mes = input("introduzca el mes")
+
+if(mes = octubre)
+{
+ paga = importe * 15%
+ paga = importe - paga
+}
+else 
+{
+ paga = importe
+}
+
+print("usted debe pagar: " + paga)
+
+end
+
+
+6. Realizar un algoritmo que dado un número entero, visualice en pantalla si es par o impar. En el caso de ser 0, debe visualizar “el número es cero”
+
+start
+
+var numero
+
+numero = input("introduzca un numero")
+
+if (numero = 0)
+{
+  print("el numero es cero")
+}
+elseif(numero MOD 2=0)
+{
+ print("el numero es par")
+}
+else
+{
+ print("el numero es impar")
+}
+
+end...
+
+
+7. Desarrollar un algoritmo que nos calcule el cuadrado de los 9 primeros números naturales 
+
+start
+
+for numero = 1 to 9
+resultado= numero^2
+
+end
+
+
+8. Dada una secuencia de números leídos por teclado, que acabe con un –1, por ejemplo: 5,3,0,2,4,4,0,0,2,3,6,0,……,-1; Realizar el algoritmo que calcule la media aritmética.
+
+
+9. Algoritmo que lea un número entero (lado) y a partir de él cree un cuadrado de asteriscos con ese tamaño. Los asteriscos sólo se verán en el borde del cuadrado, no en el interior.
+Ejemplo, para lado = 4 escribiría:
+
+start 
+
+n = input("ingrese el numero")
+
+for(int i= n ; i
+
+****
+*  * 
+*  * 
+****
+
+10. Algoritmo que nos calcule las raíces de una ecuación de segundo grado (ax^2 + bx +c).
+
+start 
+
+var a
+var b
+var c
+
+a = input("ingrese coeficiente a")
+b = input("ingrese coeficiente b")
+c = input("ingrese coeficiente c")
+
+b * -1 
+

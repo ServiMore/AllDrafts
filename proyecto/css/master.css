@@ -1,0 +1,27 @@
+body{
+  background-color: #eee;
+  padding: 0;
+  margin: 0;
+}
+input{
+  border-radius: 3px;
+}
+.fila-campo{
+  margin-bottom: 15px;
+}
+.boton{
+  height: 40px;
+  padding: 7px;
+  background-color: #23A141;
+  border-radius: 3px;
+  color: white;
+  box-shadow: 2px 2px 5px #000;
+  text-decoration: none;
+}
+.boton:hover{
+  background-color: red;
+}
+.boton-cancelar{
+  background-color: #999;
+  margin-left: 10px;
+}

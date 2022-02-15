@@ -1,0 +1,89 @@
+1. genera tres proyectos:
+modul= aqui va toda la logica(aqui se agregan las clases, comportamiento, modelo de datos),no se agregan referencias que sean especificas de una plataforma
+
+
+
+ modul.win= Aqui va toda la programacion que sea especifica de windows, todo lo que no se puede poner, se va para aca.
+
+
+ win= es el inicializador, aqui van las configuraciones genereales del sistema, ejem: cadena de sesion, inicio de sesion, tampoco se programa ya viene hecho.
+
+*en module: la carpeta BO van todas las entidades.
+
+*en la carpeta controllers, ahi agregamos clases que se llaman controladores que sirven para proporcionar funcionalidad, aqui se procesan las interacciones con el usuario.
+
+*DBU= se ponen los datos por defecto.
+
+*MDD, sirve para manipular la interfaz grafica.
+
+
+RELAS PARA BO
+1-La clase tiene que heredar de xpobject directa o indirectamente.
+2-Tiene que tener un constructor que reciba un session y que se lo pase al constructor padre.
+3-Las propiedades tienen que ir completamente implementadas.
+
+**Ejemplo
+
+private string _name;
+        public string Name {
+            get => _name; 
+            set => SetPropertyValue<string>(nameof(Name), ref _name, value);
+        }
+
+[Association]
+        public XPCollection<Carro> Carros {
+            get => GetCollection<Carro>(nameof(Carros));
+        }
+
+private Almacen _almacen;
+        [Association]
+        public Almacen Almacen {
+            get => _almacen;
+            set => SetPropertyValue<Almacen>(nameof(Almacen), ref _almacen, value);
+        }
+
+
+
+
+*como hacer las relaciones
+1-colocar una propiedad en cada una de las clases de la relacion, de un lado se coloca un campo de tipo xpcolection, y del otro un campo normal, a ambas propiedades hay que decorarlas con el atributo association 
+
+
+Metodos importantes que se pueden sobreescribir=
+*AfterConstruction = se ejecuta despues que se crea un registro por primera vez(cuando es un dato nuevo).
+*OnLoaded = se ejecuta cuando se carga un registro de la base de datos.
+*OnChanged = se ejecuta cada vez que se cambia el valor de una propiedad.
+*OnSaving = se ejecuta antes de guardarse el registro.
+*OnDeleting = se ejecuta antes de que se borre el registro.
+*OnSaved = se ejecuta despues que se ha guardado el registro.
+*OnDeleted = se ejecuta despues que se ha borrado el registro.
+
+[RuleRequiredField]
+[XafDefaultProperty(nameof(Nombre))]
+
+hay 3 atributos que se usan para filtrar los comboBox.
+*datasourcecriteria = es un filtro como el where de una consulta de sql.
+*datasourcecriteriaproperty = es para aplicar un filtro pero de manera indirecta, donde el filtro esta en otra propiedad.
+*datasourceproperty = el filtro lo define una propiedad existente de tipo coleccion.
+
+
+
+funciones comunes del objeto session:
+*getObjetBykey = buscar un objeto por su clave primaria.
+*findObjet = buscar un objeto basado en un criterio de busqueda.
+*CommitTransaction = guardar en la base d edatos todos los cambios de la sesion.
+*delete = borra un objeto.	
+
+#para obtener una coleccion de la base de datos: var x = new xpcollection<idioma>(criterio).
+
+[Action](boton.)
+
+validaciones=
+
+*calcular el costo
+Orden
+*el precio no puede ser 0 ni menor que 0
+Material
+*el costo no puede ser 0 ni menor que 0
+*la cantidad no puede ser 0 
+

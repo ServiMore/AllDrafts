@@ -1,0 +1,22 @@
+.form {
+  height: 500px;
+  width: 900px;
+  padding: 50px;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px #bbb;
+  border-radius: 4px;
+}
+
+.navbar {
+  width: 900px;
+  background-color: #0B3B39;
+  border-radius: 6px;
+  box-shadow: 0px 0px 10px #bbb;
+  margin-top: -5px;
+}
+
+.text {
+  font-size: 18px;
+  font-style: helvetica;
+}

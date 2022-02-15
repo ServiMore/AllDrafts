@@ -1,0 +1,16 @@
+1. Leer un número entero y determinar si tiene 3 dígitos.
+2. Leer un número entero y determinar si es negativo.
+3. Leer dos números enteros de dos dígitos y determinar si la suma de los dos números origina un número par.
+4. Resolver la ecuación a*x + b = 0.
+5. Desarrolle un programa que calcule el desglose de una cantidad en billetes y monedas en cordobas tal que se minimice la cantidad de monedas y billetes. Considere las denominaciones 1000, 500, 200, 100, 50, 20, 10, 5, 1
+Por ejemplo para 1816 debe imprimir:
+
+1 Billete de 1000 
+1 Billete de 500
+1 Billete de 200 
+1 Billete de 100 
+0 Billete de 50
+0 Billete de 20 
+1 Billete de 10
+1 Billete de 5
+1 Billete de 1
